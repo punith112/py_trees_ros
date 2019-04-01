@@ -31,5 +31,4 @@ from . import tests  # noqa
 from . import timers  # noqa
 from . import trees  # noqa
 from . import utilities  # noqa
-from . import version  # noqa
 from . import visitors  # noqa
