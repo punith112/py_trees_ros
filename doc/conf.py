@@ -18,9 +18,10 @@ import sys
 
 # Pull in __version__
 project_dir = os.path.abspath(os.path.join(os.path.abspath(__file__), os.pardir, os.pardir))
-version_file = os.path.join(project_dir, 'py_trees', 'version.py')
-with open(version_file) as f:
-    exec(f.read())
+__version__ = '1.1.1'
+# version_file = os.path.join(project_dir, 'py_trees', 'version.py')
+# with open(version_file) as f:
+#     exec(f.read())
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
